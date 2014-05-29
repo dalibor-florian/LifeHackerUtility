@@ -1,0 +1,3 @@
+﻿Content of namespace HotKeyWinApiWrapper is work of Denis Gladkikh.
+You can read the article where he explain work of this piece of code.
+- http://outcoldman.com/en/archive/2010/09/11/register-hotkey-in-system-for-wpf-application/

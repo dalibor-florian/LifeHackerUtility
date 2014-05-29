@@ -1,0 +1,32 @@
+﻿<Window x:Class="LifeHackerUtility.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:tb="http://www.hardcodet.net/taskbar"
+        Title="Nastavení klávesových zkratek" Height="350" Width="850">
+    <ScrollViewer>
+        <StackPanel>
+
+            <Grid Name="grMain" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!--First row "Header"-->
+                <Label Name="lblHeaderKeys" Grid.Row="0" Grid.Column="0" Content="Klávesová zkratka" HorizontalContentAlignment="Center" FontWeight="Bold" FontFamily="Consolas" />
+                <Label Name="lblHeaderRunFile" Grid.Row="0" Grid.Column="1"  Content="Spouštěná úloha" HorizontalContentAlignment="Center" FontWeight="Bold" FontFamily="Consolas" />
+            </Grid>
+
+            <!--button for adding rows-->
+            <Button Name="btnAddHotKey" Padding="5" Margin="5" Content="Přidej zkratku"/>
+        </StackPanel>
+    </ScrollViewer>
+
+
+</Window>
