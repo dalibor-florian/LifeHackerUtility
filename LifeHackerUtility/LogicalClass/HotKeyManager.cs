@@ -137,8 +137,7 @@ namespace LifeHackerUtility.LogicalClass
         HotKey newListener = new HotKey(id, mkey, rkey, window);
         newListener.HotKeyPressed += (k) =>
         {
-          Console.Beep();
-          //Process.Start(pathToFile);
+          Process.Start(pathToFile);
         };
         hotkeysListeners.Add(newListener);
       }

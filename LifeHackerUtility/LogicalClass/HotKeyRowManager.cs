@@ -232,10 +232,10 @@ namespace LifeHackerUtility.LogicalClass
             allKeys.Add(Keys.LWin);
             break;
         }
-
-        //adds keys
-        allKeys.AddRange(keys);
       }
+
+      //adds keys
+      allKeys.AddRange(keys);
 
       return allKeys;
     }
